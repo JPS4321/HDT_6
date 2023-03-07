@@ -18,7 +18,7 @@ public class Controlador {
 
 
     public  void Iniciar(){
-        System.out.println("Elija el tipo de factory que desea escribir: HashMap, TreeMap, LinkedHashMap");
+        System.out.println("Elija el tipo de hashmap que desea escribir: HashMap, TreeMap, LinkedHashMap");
         respS = sc.next();
         respS = respS.toLowerCase();
         mp = Map_Factory.MAPFactory(respS);
