@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.*;
 public class Controlador {
+    //Juan Pablo Solis
+    //22102
+
     Scanner sc = new Scanner(System.in);
     String respS;
     int RespI;
